@@ -1,8 +1,8 @@
-# ProgramHub
+# E-Management
 
 ## Description
 
-ProgramHub manages all programs and events efficiently.
+E-Management manages all programs and events efficiently.
 
 ## Technologies Used
 
@@ -20,5 +20,5 @@ To run this project locally, follow these steps:
 
 ```bash
 git clone https://github.com/ItsmeJunaied/ProgramHub
-cd twilight
+cd E-Management
 npm install
