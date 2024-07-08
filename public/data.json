@@ -1,0 +1,83 @@
+{
+    "programs": {
+      "FESTIVAL": [
+        {
+          "id":1,
+          "image": "https://demo.ovathemes.com/eventmana/wp-content/uploads/2015/09/shutterstock_2564924741.jpg",
+          "title": "2016 Calgary Comic & Entertainment Expo",
+          "dateTimePlace": "01/05/2016 at 20:00 - 22:00 on Manhattan / New York",
+          "entryFee": "Tickets from $40",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae gravida ligula. Nullam vel eros sed ex ullamcorper finibus."
+        },
+        {
+          "id":2,
+          "image": "https://demo.ovathemes.com/eventmana/wp-content/uploads/2015/09/shutterstock_1490323251.jpg",
+          "title": "LADIES FREE ALL NIGHT- ELLEVEN45",
+          "dateTimePlace": "11/25/2015 at 19:00 - 21:00 on Los Angeles / California",
+          "entryFee": "Tickets from $42",
+          "description": "Donec convallis erat at sapien sollicitudin, nec pharetra felis placerat. Aliquam erat volutpat."
+        },
+        {
+          "id":3,
+          "image": "https://demo.ovathemes.com/eventmana/wp-content/uploads/2015/09/shutterstock_2171192141.jpg",
+          "title": "Chicago Food Truck Festival",
+          "dateTimePlace": "11/17/2015 at 18:00 - 20:00 on Chicago / Illinois",
+          "entryFee": "Tickets from $36",
+          "description": "Vivamus eu lorem eget libero tempor tincidunt. Integer auctor ante quis mi interdum, id condimentum magna dictum."
+        },
+        {
+          "id":4,
+          "image": "https://demo.ovathemes.com/eventmana/wp-content/uploads/2015/09/shutterstock_1258062861.jpg",
+          "title": "The Governors Ball Music Festival 2016",
+          "dateTimePlace": "05/18/2016 at 17:00 - 19:00 on San Francisco / California",
+          "entryFee": "Tickets from $30",
+          "description": "Fusce malesuada magna ac libero maximus, non posuere sapien posuere. Etiam tristique mauris ac nunc sollicitudin tincidunt."
+        }
+      ],
+      "PLAYGROUND": [
+        {
+          "id":5,
+          "image": "https://demo.ovathemes.com/eventmana/wp-content/uploads/2015/09/shutterstock_1258062861.jpg",
+          "title": "BottleRock Napa Valley 2016",
+          "dateTimePlace": "04/01/2017 at 16:00 - 18:00 on Miami / Florida",
+          "entryFee": "Tickets from $49.99",
+          "description": "Proin ac tellus consequat, mattis risus eget, consequat sapien. Nullam nec nunc in purus ultrices malesuada vel at arcu."
+        },
+        {
+          "id":5,
+          "image": "https://demo.ovathemes.com/eventmana/wp-content/uploads/2015/09/shutterstock_1258062861.jpg",
+          "title": "SoulFuelWV 2016 – Christian Music Festival",
+          "dateTimePlace": "05/24/2016 at 15:00 - 17:00 on Austin / Texas",
+          "entryFee": "Tickets from $35.99",
+          "description": "Mauris condimentum sapien id malesuada sagittis. Quisque rhoncus purus at nulla vehicula, sed rutrum leo gravida."
+        },
+        {
+          "id":6,
+          "image": "https://demo.ovathemes.com/eventmana/wp-content/uploads/2015/09/shutterstock_1646736051.jpg",
+          "title": "Your Playground Event Title",
+          "dateTimePlace": "Event Date and Time on Location",
+          "entryFee": "Tickets from $XX.XX",
+          "description": "Your playground event description goes here. Ut fringilla enim eu tellus aliquet, eget feugiat dui fringilla."
+        }
+      ],
+      "CONFERENCE": [
+        {
+          "id":7,
+          "image": "https://demo.ovathemes.com/eventmana/wp-content/uploads/2015/09/shutterstock_1258062861.jpg",
+          "title": "Boots and Hearts 2016",
+          "dateTimePlace": "08/23/2016 at 14:00 - 16:00 on Toronto / Ontario",
+          "entryFee": "Tickets from $52",
+          "description": "Nunc scelerisque lorem at leo tincidunt, vel rutrum velit tempor. Vivamus sit amet sem id ex tristique congue."
+        },
+        {
+          "id":8,
+          "image": "https://demo.ovathemes.com/eventmana/wp-content/uploads/2015/09/shutterstock_1646736051.jpg",
+          "title": "The Worlds Greatest Tribute Bands on AXS TV",
+          "dateTimePlace": "04/06/2017 at 13:00 - 15:00 on Nashville / Tennessee",
+          "entryFee": "Tickets from $45",
+          "description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer eu felis id ipsum lacinia vulputate."
+        }
+      ]
+    }
+  }
+  
