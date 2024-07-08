@@ -13,12 +13,10 @@ const Programm = () => {
     const [selectedCategory, setSelectedCategory] = useState('ALL');
 
 
-    // Function to handle category selection
     const handleCategorySelect = (category) => {
         setSelectedCategory(category);
     };
 
-    // Render category buttons only if programData is not null
     const renderCategoryButtons = () => {
         if (!programData) {
             return null;
@@ -26,7 +24,7 @@ const Programm = () => {
 
         return (
             <div className="mb-8">
-                {/* Category filter buttons */}
+                
                 <button
                     className={`mr-4 ${selectedCategory === 'ALL' ? 'bg-red-400 text-white border-2 rounded-lg px-5 py-2 mr-5 lg:mr-0 mb-5 ' : 'bg-gray-200 text-gray-800 border-2 rounded-lg px-5 py-2'}`}
                     onClick={() => handleCategorySelect('ALL')}
@@ -46,14 +44,11 @@ const Programm = () => {
         );
     };
 
-    // Filtered programs based on selectedCategory
     let filteredPrograms = [];
     if (programData) {
         if (selectedCategory === 'ALL') {
-            // If selectedCategory is 'ALL', flatten all categories into one array
             filteredPrograms = Object.values(programData).reduce((accumulator, category) => [...accumulator, ...category], []);
         } else {
-            // Otherwise, show programs from the selected category
             filteredPrograms = programData[selectedCategory] || [];
         }
     }
@@ -63,12 +58,10 @@ const Programm = () => {
             <h1 className="text-3xl font-bold mb-4">Programs</h1>
             {renderCategoryButtons()}
 
-            {/* Display programs based on selected category */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 ">
                 {filteredPrograms.map((event) => (
                     <div key={event.id} className="bg-white rounded-lg  overflow-hidden lg:h-[300px]">
                         <div className="flex flex-col lg:flex-row">
-                            {/* Left side: Image */}
                             <div className=" w-[325px] relative h-40 md:h-auto rounded-lg">
                                 <Image
                                     src={event.image}
@@ -78,7 +71,6 @@ const Programm = () => {
                                     className="rounded-lg h-full "
                                 />
                             </div>
-                            {/* Right side: Text data */}
                             <div className="p-4 ">
                                 <h3 className="text-lg font-bold mb-2 text-black hover:text-red-500">{event.title}</h3>
                                 <p className="text-[#4A5B6F] font-bold mb-2">
